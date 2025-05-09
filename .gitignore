@@ -1,0 +1,53 @@
+# ========================
+# Build and Output Files
+# ========================
+/target/
+
+# ========================
+# IDE and Editor Settings
+# ========================
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Spring Tool Suite
+.springBeans
+.sts4-cache
+
+# VSCode
+.vscode/
+
+# ========================
+# Log Files
+# ========================
+*.log
+/logs/
+
+# ========================
+# Local Configuration Files
+# ========================
+application.properties
+application-*.properties
+
+# ========================
+# Temporary and Backup Files
+# ========================
+*.tmp
+*.bak
+
+# ========================
+# OS-specific Files
+# ========================
+# Windows
+Thumbs.db
+desktop.ini
+
+*HELP.md
+
+# macOS
+.DS_Store

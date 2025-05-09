@@ -1,0 +1,24 @@
+# application
+spring.application.name=film
+
+# PostgreSQL database
+spring.datasource.url=${DB_URL:jdbc:postgresql://localhost:5432/your_database_name}
+spring.datasource.username=${DB_USERNAME:your_database_username}
+spring.datasource.password=${DB_PASSWORD:your_database_password}
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+# file update settings
+spring.servlet.multipart.max-file-size=10MB
+spring.servlet.multipart.max-request-size=10MB
+file.upload-dir=uploads/
+file.max-size=10485760
+
+# JWT settings
+jwt.secret=${JWT_SECRET:your_256_bit_secret_key}
+jwt.expiration=1800
+jwt.refresh.expiration=604800000
+
+# server settings
+server.port=3001
